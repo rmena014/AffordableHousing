@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="donate.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="images/webp" href="images/RCRH Logo.webp" />
+    <title>Donate</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"
+          ><img class="logo" src="images/RCRH Logo.webp" alt="RCRH Logo" />
+        </a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutUs.html">About Us</a></li>
+          <li><a href="housing.html">Housing </a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form class="donate">
+      <label>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" />
+        <br />
+        <br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" />
+        <br />
+        <br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" />
+        <br />
+        <br />
+        <label for="quantity"> Amount:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="1000" />
+        <br />
+        <br />
+        <input type="radio" id="debit" name="debit" value="debit" />
+        <label for="debit">Debit</label>
+        <br />
+        <input type="radio" id="credit" name="credit" value="credit" />
+        <label for="credit">Credit</label>
+        <br />
+        <br />
+        <select name="recurring" id="recurring">
+          <option value="once">Once</option>
+          <option value="weekly">Weekly</option>
+          <option value="monthly">Monthly</option>
+          <option value="Yearly">Yearly</option>
+        </select>
+        <br />
+        <br />
+        <input class="enter" type="submit" value="Submit" />
+      </label>
+    </form>
+    <footer class="socialmedia">
+      <a href="https://www.facebook.com/" target="_blank">
+        <i class="fa-brands fa-facebook"></i
+      ></a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <i class="fa-brands fa-instagram"></i
+      ></a>
+      <a href="https://twitter.com/?lang=en" target="_blank">
+        <i class="fa-brands fa-twitter"></i
+      ></a>
+      <a href="https://www.youtube.com/" target="_blank">
+        <i class="fa-brands fa-youtube"></i
+      ></a>
+    </footer>
+  </body>
+</html>
